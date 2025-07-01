@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+
+}
+
+
+.form{
+    border: 2px solid black;
+    background-color:  rgba(15, 14, 14, 0.658);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 650px;
+    text-align: center;
+    margin-top: 17%;
+    margin-left: 38%;
+    cursor: pointer;
+}
+
+h1{
+    margin-right: 280px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+}
+.i{
+    border: 2px solid black;
+    width: 350px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+ #orsign{
+   font-size: 16px;
+ }
+#signbutton{
+    background-color: red;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#signbutton:hover{
+    background-color: rgba(255, 0, 0, 0.671);
+}
+#codebutton{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+}
+#codebutton:hover{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+a{
+    width: 600px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.remeber{
+    color: white;
+    margin: 10px 0 0 0;
+    padding-right: 290px;
+    font-size: 20px;
+}
+.smallinfo{
+    padding-right: 2%;
+}
+.smallinfo span{
+    padding-left: 160px;
+}
+
+.capcha{
+    padding-left: 39px;
+    text-align: justify;
+}
+
+#learnmore a{
+    color: blue;
+    font-weight: 200;
+    margin-top: 30px;
+    padding-right: 70px;
+}
+
